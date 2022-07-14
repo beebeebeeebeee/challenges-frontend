@@ -1,0 +1,77 @@
+{
+    "lang": "English",
+    "error": {
+        "validation.is_defined": "should be defined.",
+        "validation.is_not_empty": "should not be empty.",
+        "validation.is_string": "should be a string.",
+        "validation.is_number": "should be a number.",
+        "auth.password2_is_not_same": "2 password is not the same.",
+        "auth.user_exist": "username is already exist.",
+        "auth.user_not_found": "user is not exist.",
+        "auth.password_incorrect": "password is incorrect.",
+        "wallet.price_is_not_updated": "the price is not updated.",
+        "wallet.wallet_not_found": "wallet is not found.",
+        "wallet.balance_not_enough": "balance is not enough."
+    },
+    "success": {
+        "text": "{{action}} success!",
+        "login": "Login",
+        "register": "Register",
+        "deposit": "Deposit"
+    },
+    "common": {
+        "loading": "Loading...",
+        "back": "Back"
+    },
+    "tab": {
+        "wallet": "Wallet",
+        "deposit": "Deposit",
+        "transaction": "Transcation History"
+    },
+    "page": {
+        "login": {
+            "username": "Username",
+            "password": "Password",
+            "password2": "Reenter Password",
+            "remember": "Remember Me",
+            "login": "Login",
+            "register": "Register",
+            "create": "Didn't have an account? Create one now!",
+            "error": {
+                "account": "Please input your account!",
+                "password": "Please input your password!",
+                "password2": "Please reenter your password!",
+                "password2incorrect": "The two passwords that you entered do not match!"
+            }
+        },
+        "dashboard": {
+            "welcome": "Welcome, {{name}}!",
+            "logout": "Logout",
+            "wallet": {
+                "yourwallet": "Your wallets",
+                "balance": "Account Balance"
+            }
+        },
+        "deposit": {
+            "title": "Deposit",
+            "from": "From",
+            "to": "To"
+        },
+        "transaction": {
+            "table": {
+                "id": "Transaction ID",
+                "from": "From",
+                "to": "To",
+                "fromAmount": "From Amount",
+                "toAmount": "To Amount",
+                "rate": "Rates",
+                "status": "Status",
+                "timestamp": "Timestamp"
+            }
+        },
+        "notfound": {
+            "text": "Sorry, the page you visited does not exist.",
+            "back": "Back Home"
+        }
+    }
+}
