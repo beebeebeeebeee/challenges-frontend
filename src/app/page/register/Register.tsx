@@ -83,7 +83,6 @@ export default function Register() {
                         name="basic"
                         labelCol={{ span: 8 }}
                         wrapperCol={{ span: 16 }}
-                        initialValues={{ ...(state.remember ? { account: state.remember } : {}), ...(state.remember ? { remember: true } : {}) }}
                         onFinish={onFinish}
                         autoComplete="off"
                     >
