@@ -13,6 +13,7 @@ import { StateAction } from '../../store/reducer';
 import { store } from '../../store/store';
 
 import type { MenuProps } from 'antd';
+import { requestSuccessHandler } from '../../service/util/request.hander';
 
 export default function Dashboard() {
 
@@ -41,7 +42,7 @@ export default function Dashboard() {
             type: StateAction.SET_TOKEN,
             data: null
         })
-
+        requestSuccessHandler("logout")
         navigate("/login")
     }
 

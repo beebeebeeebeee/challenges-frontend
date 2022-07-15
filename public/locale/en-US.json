@@ -9,6 +9,8 @@
         "auth.user_exist": "username is already exist.",
         "auth.user_not_found": "user is not exist.",
         "auth.password_incorrect": "password is incorrect.",
+        "auth.otp_incorrect": "OTP is incorrect.",
+        "auth.totp_is_already_registered": "two-factor authentication is already registered.",
         "wallet.price_is_not_updated": "the price is not updated.",
         "wallet.wallet_not_found": "wallet is not found.",
         "wallet.balance_not_enough": "balance is not enough."
@@ -16,10 +18,14 @@
     "success": {
         "text": "{{action}} success!",
         "login": "Login",
+        "logout": "Logout",
         "register": "Register",
+        "registerTotp": "Register TOTP",
         "deposit": "Deposit"
     },
     "common": {
+        "ok": "Ok",
+        "cancel": "Cancel",
         "loading": "Loading...",
         "back": "Back"
     },
@@ -32,6 +38,7 @@
         "login": {
             "username": "Username",
             "password": "Password",
+            "otp": "One Time Password",
             "password2": "Reenter Password",
             "remember": "Remember Me",
             "login": "Login",
@@ -42,6 +49,13 @@
                 "password": "Please input your password!",
                 "password2": "Please reenter your password!",
                 "password2incorrect": "The two passwords that you entered do not match!"
+            }
+        },
+        "totp": {
+            "popup": {
+                "title": "Register TOTP",
+                "content": "We have noticed you didn't enable two-factor authentication, do you want to enable it now?",
+                "scan": "Please use Google Authenticator to scan the QR code below."
             }
         },
         "dashboard": {

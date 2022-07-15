@@ -1,3 +1,4 @@
 export interface LoginResponseModel {
-    token: string
+    token?: string
+    totp: boolean
 }
